@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+}
+.scroller {
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+.scroller::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+#mainCanvas {
+    height: calc(100% - 100px);
+    width: 100%;
+}
+nav, footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+aside > div > p {
+    height: 50px;
+}
+.scroller canvas {
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.1);
+
+}
+.scroller canvas:hover {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
