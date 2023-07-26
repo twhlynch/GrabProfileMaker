@@ -1,0 +1,1 @@
+"C:\__\blender\blender-3.5.0-windows-x64\blender.exe" --background --python imgs.py
