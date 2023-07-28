@@ -106,7 +106,7 @@ function render() {
 render();
 
 function createCosmeticOption(name, canvas, primary, secondary, listAll) {
-    canvas.innerHTML += `<img width=50 src="./models/${name}.sgm.png" title="${name}" />`;
+    canvas.innerHTML += `<img width=50 src="./img/${name}.sgm.png" title="${name}" />`;
 }
 
 var cosmetics = {
